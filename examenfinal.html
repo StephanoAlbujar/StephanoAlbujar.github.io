@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>examenfinal</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+    <header>
+        <img src="banner.jpg" alt="Banner" id="banner" onmouseover="changeBanner()" onmouseout="resetBanner()">
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#bienvenido">Bienvendio</a></li>
+            <li><a href="#almacenamiento">Almacenamiento</a></li>
+            <li><a href="datacenter.html">Data center</a></li>
+            <li><a href="#plataformadesarrollo">Plataforma desarrollo</a></li>
+            <li><a href="consultas.html">Consultas</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <aside>
+            <iframe width="100%" height="200px" src="https://www.youtube.com/embed/h4Af5bbFAq0?si=8WROKhLOL4RB_Fub" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </aside>
+        
+        <section>
+            <div class="images-row">
+                <div>
+                    <img height="150px"  src="servicio1.png" alt="Imagen 1">
+                    <p>Infraestructura como servicio</p>
+                </div>
+                <div>
+                    <img src="servicio2.jpg" alt="Imagen 2">
+                    <p>Plataforma como servicio</p>
+                </div>
+            </div>
+            <div class="images-row">
+                <div>
+                    <img src="servicio3.png" alt="Imagen 3">
+                    <p>Software como servicio</p>
+                </div>
+                <div>
+                    <img src="servicio4.jpeg" alt="Imagen 4">
+                    <p>Almacenamiento como servicio</p>
+                </div>
+            </div>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                
+            </audio>
+        </section>
+        
+        <aside>
+            <img src="imagen7.webp" alt="imagen7" width="100%">
+        </aside>
+    </main>
+    
+    <footer>
+        <p>Derechos Reservados Lima-Peru 2024</p>
+        <img src="Facebook.png" alt="Facebook">
+        <img src="Instagram.webp" alt="Instagram">
+    </footer>
+
+    <script>
+        function changeBanner() {
+            document.getElementById('banner').src = 'banner2.jpg';
+        }
+
+        function resetBanner() {
+            document.getElementById('banner').src = 'banner.jpg';
+        }
+    </script>
+</body>
+</html>
